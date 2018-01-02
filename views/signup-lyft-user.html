@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+	<title>signup user</title>
+	<link rel="stylesheet" href="../css/main.css">
+</head>
+<body class="vh100 letter">
+  <!--uso ancor par apoder usar href  -->
+    <a href="verify-lyft-phone.html" type="button" class="btn btn-signup">
+      <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+    </a>
+    <form class="container-flex-column text-center">
+       <h1 class="title">Sign up</h1>
+       <h3 class="title">Join now for free ride credit</h3>
+       <br>
+       <div class="form-group">
+          <div class="input-group"> 
+                <label class="sr-only" for="First-name"><b>First name</b></label>
+                <div class="input-group-addon">
+                  <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                </div>
+                <ul class="style-1">
+                 <li>
+                  <input id="first-name" class="form-control  field-divided" type="text" placeholder="First name" required="">
+                  <input id="last-name" class="form-control  field-divided" type="text" placeholder="Last name" required="">
+                  </li>
+                </ul>  
+            </div> 
+            <span class="alert-error" id="error"></span>                            
+          </div>
+          <div class="msgshow" id="msg-name">Ingrese ambos datos,solo acepta caracteres alfabeticos</div>
+         <div class="form-group">  
+                <div class="input-group">
+                     <label class="sr-only"><b>Email</b></label>
+                     <div class="input-group-addon">
+                       <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                     </div>
+                     <input id="inputEmail" class="form-control" type="email" placeholder="Email" required="">
+                </div>
+                <span class="alert-error" id="errore"></span>  
+        </div>
+      <!---->
+           <div class="row">
+                        
+              <div class="form-group col-lg-6">
+                    <div class="input-group">
+                        <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                        <input id="inputPassword" name="password" type="password" class="form-control" placeholder="Password">
+                       </div>  
+                      <span class="alert-error" id="errorp"></span>                     
+              </div>
+                           
+                   <div class="form-group col-lg-6">
+                        <div class="input-group">
+                        <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                        <input id="inputrePassword" name="rpassword" type="password" class="form-control" placeholder="Retype Password">
+                        </div>  
+                        <span class="alert-error" id="errorr"></span>                    
+                   </div>
+                            
+             </div>
+      <!---->
+       <div class="checkbox">
+           <label>
+               <input type="checkbox"> I agree to lyft'ss <a> terms of service</a>
+           </label>
+       </div>
+      
+       <br>
+       <br>
+       <a href="msguser-lyft-final.html" type="submit" id="signup" class="btn btn-final" disabled>NEXT</a>
+   </form>
+
+  <script type="text/javascript" src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/signup-lyft-user.js"></script>
+  <!--vuelve a llamr a la misma funcion app.js-->
+
+</body>
+</html>

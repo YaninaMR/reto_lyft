@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+  <link type="text/css" rel="stylesheet" href="../vendors/bootstrap/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+	<title>signup</title>
+	
+</head>
+<body class="vh100 letter">
+  <!--inicio alerta -->
+  <div class="modal fade " id="myModalfly">
+    <div class="modal-dialog">
+          <form class="modal-content center"> 
+            <div class="modal-body"> 
+            <div class="form-group">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button> 
+            </div>   
+            <div class="form-group">
+              <label>Tu código :<span>LAB-<span id="code-random">555</span></span></label>
+              <br>
+              <a href="verify-lyft-phone.html" id="codeok" class="btn btn-info pull-right" type="submit" value=""> OK </a>
+              <p></p>
+              <br>
+            </div>
+        
+          </div>  
+        </form>
+     </div> 
+        
+  </div>
+  <!--uso ancor par apoder usar href  -->
+  <div class="container-fluid">
+    <a href="signup-lyft.html" type="button" class="btn btn-signup">
+      <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+    </a>
+    <form class="container-flex-column text-center">
+       <h1 class="title">Sign Up</h1>
+       <br>
+       <p>join now for free ride credit</p>
+          <div class="form-group " id="group-lab">
+          <select  class="selectpicker" data-width="fit" id="selectCity">
+          </select>          
+         <input type="text" name="txtNumeroPostal" id="txtNumeroPostal" class="grande-postal" maxlength="11">
+       </div>          
+       <br>
+       <a type="submit" id="btnext" class="btn btn-final" disabled data-toggle="modal" data-target="#myModalfly"> NEXT</a>
+    </form>
+  </div>
+ 
+   
+  <script type="text/javascript" src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/i18n/defaults-*.min.js"></script>
+
+  <script type="text/javascript" src="../js/signup-lyft-lab.js"></script>
+  <!--vuelve a llamr a la misma funcion app.js-->
+
+</body>
+</html>

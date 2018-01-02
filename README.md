@@ -4,7 +4,7 @@
 #### slash ala inicio
 ![image](assets/img/0.png)
 ![image](assets/img/6.png)
-####muestra dos botones login y sing up
+#### muestra dos botones login y sing up
 ![image](assets/img/1.png)
 #### signup elige pais e ingresa tu celular
 ![image](assets/img/2.png)

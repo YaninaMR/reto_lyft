@@ -17,6 +17,8 @@
 ![image](assets/img/5.png)
 #### logearse con email y password
 ![image](assets/img/5-1.png)
+#### logearse
+![image](assets/img/7.png)
 #### muestra mensaje de exito
-![image](assets/docs/8.png)
+![image](assets/img/8.png)
 
